@@ -1,0 +1,14 @@
+\ProvidesPackage{my_macros}[6 Sep 2022 Custom Macros]
+\RequirePackage{physics}
+
+\newcommand{\firstlaw}{\dd e = \delta q + \delta w}
+\newcommand{\enthalpy}{h = u + p\nu}
+\newcommand{\dentropy}{\dd s = \frac{\delta q}{T} + \dd s_{irreversible}}
+\newcommand{\idealgas}{P = \rho R T}
+\newcommand{\cv}{c_\nu}
+\newcommand{\gibbseqns}{ T \dd s = \dd h - \nu \dd p\\T \dd s = \dd e + \ \dd \nu}
+\newcommand{\ds}{s_2 - s_1 = c_p \ln(\frac{T_2}{T_1}) - R \ln(\frac{p_2}{p_1})}
+
+% Isentropic Relations - Non Total Conditions
+\newcommand{\isenprho}{\frac{P_2}{P_1} = \left({\frac{\rho_2}{\rho_1}}\right)^{\gamma}}
+\newcommand{\isenpt}{\frac{P_2}{P_1} = \left({\frac{T_2}{T_1}}\right)^{\frac{\gamma}{\gamma-1}}}
